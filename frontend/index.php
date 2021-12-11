@@ -25,8 +25,7 @@
         				<?php echo $_SESSION['username']; ?>
     					</strong>
 	    			</h3>
-   		 		<li><a href="products.php?logout='1'" style="color: red;">Logout</a></li>
-					<!-- this will logout the user -->
+   		 		<li><a href="products.php?logout='1'" style="color: red;">Logout</a></li><!-- this logout the user -->
     			<?php endif ?>
 			</ul>
 	</div>

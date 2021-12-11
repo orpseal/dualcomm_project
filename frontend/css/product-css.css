@@ -60,10 +60,8 @@ ul li a:hover{
 
 /* products body */
 .products-body{
-    border: 1px solid;
     margin: auto 50px;
     padding: 20px;
-    display: flex;
 }
 
 .products-message{
@@ -80,4 +78,3 @@ ul li a:hover{
     text-align: center;
     margin:0px 70px 0px 70px;
 }
-

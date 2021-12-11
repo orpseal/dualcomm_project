@@ -197,8 +197,7 @@ h1, h2{
     margin-right: 5px;
 }
 
-#product-input div{
-}
+
 .content{
     display: flex;
     justify-content: center;
@@ -208,6 +207,8 @@ h1, h2{
 }
 .cards{
     padding: 10px;
+    height: 500px;
+    overflow: auto;
 }
 
 /* product table */

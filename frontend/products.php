@@ -70,11 +70,25 @@
                     </span></div>
                 <div class="extra content"><i aria-hidden="true" class="user icon"></i><a href="./filesfolder/product-brief.pdf" download>Download</a></div>
             </div>
+            </div>
             <?php } ?>
-            <!-- </div> -->
+            
 
         </div>
-        
+        <div class="products-message">
+            <h2>Our processors drive Innovation</h2>
+            <br>
+            <p>Our powerful and versatile suite of processors are purpose-built to power mobile experiences, AI
+                datacenter
+                solutions, and the Internet of Things (IoT). Our CPU processors utilize our strong heritage in
+                engineering
+                to deliver best-in-class security, AI, and connectivity solutions, all designed to enable the next
+                generation of high-tech devices and apps.</p>
+            <br>
+            <br>
+            <h2>Explore Processor Categories</h2>
+            <p>" ."</p>
+        </div>
         <!-- <script src="Semantic-UI-CSS-master/semantic.min.css"></script> -->
 </body>
 
