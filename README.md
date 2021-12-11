@@ -1,6 +1,6 @@
 # dualcomm_project
 # Ashesi University
 # Course: Web Technologies
-# Website development individual project
+# Website development individual project - Tracy Frempong
 This is a website for a company, Dualcomm, to help their clients get update information on recent products (mobile processors and application process), and contact sales
 for orders.
