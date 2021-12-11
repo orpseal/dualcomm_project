@@ -1,0 +1,74 @@
+
+/* 
+header{
+    background-size: 1300px 200px;
+    height: 18vh;
+}
+body{
+    background-color: #1E2833;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 100px;
+	height: 80;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.products-message{
+    background-size: 1300px;
+    height: 20vh;
+    background-position: center;
+}
+.products-message h2{
+    color: #fff;
+    text-align: center;
+}
+.products-message p{
+    color: #fff;
+    text-align: center;
+    margin:0px 70px 0px 70px;
+}
+.table-hover{
+    background-size: 1300px;
+    padding-top: 100px;
+    border: 2px solid;
+    color: #fff;
+}
+.table-hover{
+    color:#fff;
+}
+
+.products-body{
+	border: 1px solid white;
+	padding: 10px;
+} */

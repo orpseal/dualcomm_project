@@ -1,0 +1,83 @@
+body,html{
+    margin: 0;
+    background-color: #1E2833;
+	padding: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	box-sizing: border-box;
+}
+/* header */
+.header-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+}
+.logo img{
+    width: 100%;
+}
+.header-body ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.header-body ul li{
+    margin: 5px;
+    padding: 5px;
+}
+.header-body li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.main-content{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(main.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.user-msg{
+    color: white;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+/* products body */
+.products-body{
+    border: 1px solid;
+    margin: auto 50px;
+    padding: 20px;
+    display: flex;
+}
+
+.products-message{
+    background-size: 1300px;
+    height: 20vh;
+    background-position: center;
+}
+.products-message h2{
+    color: #fff;
+    text-align: center;
+}
+.products-message p{
+    color: #fff;
+    text-align: center;
+    margin:0px 70px 0px 70px;
+}
+

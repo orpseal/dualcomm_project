@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 140vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("login-signup-bg.jpg");
+    background-size: 1300px 100vh;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+button{
+    width: 350px;
+    height: 40px; 
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+h1{
+    margin: 20px 0px 10px 0px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+form h5{
+    color: white;
+    margin-top: 5px;
+}
+a{
+    color: white;
+    margin-top: 20px;
+}
+.login-form{
+    margin-top: 100px;
+}
+p{
+    color: white;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+} 
