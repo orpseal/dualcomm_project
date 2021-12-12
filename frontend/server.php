@@ -233,7 +233,7 @@ if (isset($_POST['login_admin'])) {
   }
   if (count($errors) == 0) {// checks if no errors
   	$password = md5($password); // this encrypts the password (in the sqldb you wont be able to see user's password)
-  	$query = "SELECT * FROM users WHERE username='$username' AND pwd='$password'"; // this query the user with the exact username and password
+  	$query = "SELECT * FROM users WHERE username='$username' AND pwd='$password' AND user_role='admin'"; // this query the user with the exact username and password
   	$results = mysqli_query($db, $query); 
 
   	if (mysqli_num_rows($results) == 1) {
